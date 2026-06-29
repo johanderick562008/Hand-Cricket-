@@ -239,34 +239,4 @@ elif t == 2:
         elif y < x :print("You won")
         elif y==x:print("Match Tied")
 
-'''   
-        try:
-            bt = int(input("Enter: "))
-        except ValueError:
-                print("Invalid Character")
-                sys.exit(0)
-   
-    try:
-        g = int(input("Enter a number from 0 to 10: "))
-    except ValueError:
-        print("Invalid Character")
-        sys.exit(0)
 
-    try:
-        e = input("Odd or Even [O/E]: ").upper()
-    except ValueError:
-        print("Invalid Character")
-        sys.exit(0)
-
-try:
-     a = int(input("Enter your choice for TOSS [1/2]: "))
-except ValueError:
-        print("Invalid Character")
-        sys.exit(0)
-
-    try:
-        b = input("Heads or Tails [H/T] ").upper()
-    except ValueError:
-        print("Invalid Character")
-        sys.exit(0)
-'''
